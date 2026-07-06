@@ -46,40 +46,40 @@ pip install -r requirements.txt
 
 Paste a sample of your app's CLI or Streamlit output here so a reader can see what a generated plan looks like:
 
-```
-# e.g.:
-# Daily plan for Biscuit (Golden Retriever):
-#   08:00 — Morning walk (30 min) [priority: high]
-#   09:00 — Feeding (10 min) [priority: high]
-#   ...
-```
+Daily plan for Luna:
+08:00 — Feeding (10 min) [priority: high]
+08:30 — Walk (30 min) [priority: high]
+09:15 — Grooming (15 min) [priority: medium]
 
 ## 🧪 Testing PawPal+
 
+To run the tests, use:
+
 ```bash
-# Run the full test suite:
-pytest
-
-# Run with coverage:
-pytest --cov
+python -m pytest
 ```
 
-Sample test output:
+The test suite checks task completion, adding tasks to pets, sorting tasks by time, and detecting schedule conflicts.
 
+Successful test output:
+
+```text
+4 passed
 ```
-# Paste your pytest output here
+
+Confidence level: 5/5 stars because all current tests passed.
+
 ```
 
 ## 📐 Smarter Scheduling
 
 > Fill in once you've implemented scheduling logic.
 
-| Feature | Method(s) | Notes |
-|---------|-----------|-------|
-| Task sorting | | e.g., by priority, duration |
-| Filtering | | e.g., skip tasks if time runs out |
-| Conflict handling | | e.g., overlapping time slots |
-| Recurring tasks | | e.g., daily vs. weekly |
+
+| Task sorting | sort_tasks_by_priority() | Sorts high-priority tasks first |
+| Filtering | generate_daily_plan() | Skips tasks if there is not enough time |
+| Conflict handling | has_conflict() | Detects overlapping task times |
+| Recurring tasks | Task.frequency | Marks tasks as daily or weekly |
 
 ## 📸 Demo Walkthrough
 
@@ -91,4 +91,10 @@ Describe your app in numbered steps so a reader can follow along without watchin
 4. <!-- Describe this step -->
 5. <!-- Add more steps as needed -->
 
+1. Open the Streamlit app.
+2. Enter the owner name and pet information.
+3. Add care tasks with duration and priority.
+4. Click “Generate Plan.”
+5. Review the daily schedule and reasoning.
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or link to a demo video here -->
+```
