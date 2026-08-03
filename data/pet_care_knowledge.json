@@ -1,0 +1,65 @@
+[
+  {
+    "id": "dog-exercise-001",
+    "title": "General Dog Exercise",
+    "species": "dog",
+    "topic": "exercise",
+    "keywords": ["dog", "walk", "walking", "exercise", "activity"],
+    "content": "Adult dogs generally benefit from regular daily exercise. The amount and intensity depend on the dog's age, breed, health, and energy level.",
+    "source": "PawPal Educational Knowledge Base"
+  },
+  {
+    "id": "dog-feeding-001",
+    "title": "General Dog Feeding",
+    "species": "dog",
+    "topic": "feeding",
+    "keywords": ["dog", "food", "feed", "feeding", "meal"],
+    "content": "Dogs should follow a consistent feeding schedule based on their age, size, health needs, and veterinarian recommendations.",
+    "source": "PawPal Educational Knowledge Base"
+  },
+  {
+    "id": "cat-feeding-001",
+    "title": "General Cat Feeding",
+    "species": "cat",
+    "topic": "feeding",
+    "keywords": ["cat", "food", "feed", "feeding", "meal"],
+    "content": "Cats benefit from a consistent feeding schedule. The amount and type of food should follow the product instructions and veterinary guidance.",
+    "source": "PawPal Educational Knowledge Base"
+  },
+  {
+    "id": "cat-play-001",
+    "title": "Cat Activity and Play",
+    "species": "cat",
+    "topic": "exercise",
+    "keywords": ["cat", "play", "exercise", "activity", "toy"],
+    "content": "Regular interactive play can support a cat's physical activity and mental stimulation. The appropriate activity level depends on age and health.",
+    "source": "PawPal Educational Knowledge Base"
+  },
+  {
+    "id": "medication-001",
+    "title": "Pet Medication Safety",
+    "species": "all",
+    "topic": "medication",
+    "keywords": ["medicine", "medication", "dose", "dosage", "prescription"],
+    "content": "Medication should only be given according to instructions from a licensed veterinarian. PawPal must not recommend, prescribe, or change a medication dosage.",
+    "source": "PawPal Safety Guidance"
+  },
+  {
+    "id": "appointment-001",
+    "title": "Veterinary Appointments",
+    "species": "all",
+    "topic": "appointment",
+    "keywords": ["vet", "veterinarian", "appointment", "checkup", "visit"],
+    "content": "Routine veterinary appointments help monitor a pet's health. Owners should follow the schedule recommended by their veterinarian.",
+    "source": "PawPal Educational Knowledge Base"
+  },
+  {
+    "id": "emergency-001",
+    "title": "Emergency Pet Care",
+    "species": "all",
+    "topic": "emergency",
+    "keywords": ["emergency", "collapsed", "poison", "bleeding", "breathing", "seizure"],
+    "content": "Possible emergencies require immediate help from a veterinarian or emergency veterinary service. PawPal cannot diagnose or manage emergencies.",
+    "source": "PawPal Safety Guidance"
+  }
+]
